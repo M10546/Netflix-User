@@ -1,0 +1,196 @@
+body {
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+h1 {
+    padding: 15px;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.dashboard {
+    padding: 40px;
+}
+.piechart {
+    position: relative;
+    height: 240px;
+    width: 300px;
+    border-radius: 4%;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    margin-left: 10px;
+    margin-top: 50px;
+}
+#piechart{
+height: 350px;
+    width: 360px;
+    border-radius: 20%;
+    background-color: rgba(0,0,0);
+    margin-left: -50px;
+    margin-top: -20px;
+}
+.chart1 {
+    padding-left: 30px;
+    padding-right: 60px;
+    padding-top: 20px;
+    margin-bottom: -10px;
+    width: 100%;
+}
+#kpi1 {
+    height: 80px;
+    width: 100px;
+    padding: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-top: -55px;
+    margin-left: 45px;
+    
+}
+.kpi1 {
+    height: 112px;
+    width: 220px;
+    border-radius: 4%;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    margin-left: 330px;
+    margin-top: -260px;
+    align-items: center;
+}
+.kpi1t {
+    margin-bottom: 15px;
+    margin-right: -15px;
+    width: 500px;
+    padding: 15px;
+}
+.kpi2 {
+    height: 112px;
+    width: 220px;
+    border-radius: 4%;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    margin-left: 330px;
+}
+#kpi2 {
+    height: 80px;
+    width: 100px;
+    margin-top: -55px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.kpi2t {
+    margin-left: 40px;
+    align-items: center;
+}
+.hist_chart {
+    height: 245px;
+    width: 820px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    margin-top: -265px;
+    margin-left: 570px;
+}
+#histchart {
+    height: 260px;
+    width: 810px;
+    margin-top: -70px;
+}
+.histt {
+    width: 100%;
+    margin-left: 230px;
+    margin-top: 20px;
+}
+.sun {
+    height: 310px;
+    width: 380px;
+    border-radius: 4%;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    margin-left: 10px;
+    align-items: center;
+}
+#sun {
+    height:460px;
+    width: 360px;
+    margin-top: -70px;
+    margin-left: 5px;
+    align-items: center;
+}
+.sunt {
+   text-align: center;
+}
+.watch {
+    height: 310px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    margin-top: -330px;
+    margin-left: 415px;
+
+}
+#watch {
+    height: 310px;
+    width: 500px;
+    margin-top: -80px;
+}
+.watcht {
+    width: 500px;
+    text-align: center;
+}
+.countries {
+    height: 310px;
+    width: 450px;
+   border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px); 
+    margin-top: -330px;
+    margin-left: 940px;
+}
+#countries {
+    height: 300px;
+    width: 490px;
+    margin-top: -70px;
+}
+.countryt {
+    text-align: center;
+}
+.areachart {
+    height: 310px;
+    width: 700px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px)
+}
+#area {
+    height: 340px;
+    width: 750px;
+    margin-top: -80px;
+}
+.areat {
+    text-align: center;
+}
+.map {
+    height: 315px;
+    width: 670px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    margin-top: -330px;
+    margin-left: 730px;
+}
+#map {
+    height: 340px;
+    width: 730px;
+    margin-left: -70px;
+    margin-top: -70px;
+}
+.mapt {
+    text-align: center;
+}

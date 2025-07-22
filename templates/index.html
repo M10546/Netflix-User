@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enter Password</title>
+    <style>
+        body { background-color: #000000; background-image: url('/static/bgimage.jpg');
+        background-repeat: no-repeat;
+    background-size: cover;
+        color: white; text-align: center; padding: 50px; font-family: 'Helvetica'; }
+        /* button { padding: 12px 20px; font-size: 18px; border-radius: 8px; border: none; margin: 10px; }
+        button { background: #45a29e; color: white; } */
+        .password {background-color:  transparent;  height: 40px; width: 220px; border-radius: 50px; color:white; padding:12px 20px;
+            border: none;
+             box-shadow: 0 0 8px #f5343d , 0 0 8px #e50914;
+             font-size: large;
+        }
+        input:focus{
+            outline: none;
+        }
+        button {
+            border-radius: 50px;
+            height: 50px;
+            width: 160px;
+            background-color: transparent;
+            color: white;
+            font-family: 'Helvetica';
+            font-size: large;
+        }
+        button:hover {
+            background: linear-gradient(to right,#e50914,#f5343d );
+            box-shadow: 0 0 8px #f5343d , 0 0 8px #e50914;
+        }
+    </style>
+</head>
+<body>
+    <div class="home" align="center">
+        <img src="/static/header (2).png" alt="netflix" height="250px" width="500px">
+    <form method="POST" action="/check_password">
+        <input type="password" class="password" name="password" placeholder="tudum" required style="font-family: Helvetica, sans-serif;">
+        <br> <br> <br>
+        <button type="submit">Next Episode</button>
+    </form>
+    {% if error %}
+        <p style="color:red;">{{ error }}</p>
+    {% endif %}
+</body>
+    </div>
+    
+</html>
